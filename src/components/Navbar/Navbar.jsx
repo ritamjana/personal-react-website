@@ -1,15 +1,15 @@
 import React from "react"
-import {FaBars} from "react-icons/fa"
+import { FaBars } from "react-icons/fa"
 import "./Navstyle.scss";
 import { Link as LinkR } from "react-router-dom"
-import {Link as LinkS} from "react-scroll"
+import { Link as LinkS } from "react-scroll"
 
 const Navbar = () => {
 	return (
 		<>
 			<nav>
 				<div className="container">
-					<LinkR  to="/" className="brandName">Ritam Jana</LinkR>
+					<LinkR to="/" className="brandName">RITAM JANA</LinkR>
 					<div className="mobileIcons">
 						<FaBars />
 					</div>
