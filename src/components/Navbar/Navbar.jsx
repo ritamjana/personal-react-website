@@ -4,6 +4,7 @@ import "./Navstyle.scss";
 import { Link as LinkR } from "react-router-dom"
 import { Link as LinkS } from "react-scroll"
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const Navbar = () => {
 	return (
 		<>
